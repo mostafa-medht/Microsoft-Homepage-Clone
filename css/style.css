@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    border-radius: 1px;
 }
 
 body {
@@ -42,6 +43,7 @@ ul {
     opacity: 0.9;
 }
 
+
 .dark {
     color: white;
 }
@@ -51,6 +53,9 @@ ul {
     color: #333;
 }
 
+.dark .btn  a:hover i{
+    margin-right: 2px;
+}
 /* Nav */
 .main-nav {
     display: flex;
@@ -176,6 +181,12 @@ ul {
     margin: 10px 0 20px;
 }
 
+.carbon a:hover i {
+    margin-left: 5px;
+    opacity: 0.9;
+}
+
+
 /* Follow */
 .follow {
     display: flex;
@@ -187,3 +198,65 @@ ul {
 .follow * {
     margin-right: 10px;
 }
+
+/* Links */
+.links {
+    background: #f2f2f2;
+    color: #616161;
+    font-size: 12px;
+    padding: 35px 0;
+}
+
+.links-inner {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 10px;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.links li {
+    line-height: 2.4;
+}
+
+/* Footer */
+.footer {
+    background: #f2f2f2;
+    color: #616161;
+    font-size: 12px;
+    padding: 20px 0;
+}
+
+.footer-inner {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer div {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.footer div i {
+    margin-right: 10px;
+}
+
+.footer ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer li {
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+
+/* Medai Queries */
