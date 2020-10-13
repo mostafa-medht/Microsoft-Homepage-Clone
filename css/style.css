@@ -97,6 +97,7 @@ ul {
 .showcase h2, .showcase p {
     margin-bottom: 15px;
     word-wrap: normal;
+    display: flex;
 }
 
 .showcase .btn {
