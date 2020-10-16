@@ -22,4 +22,4 @@ _Is a project built using **HTML && CSS Grid, Flex && Media Quieres**, it has on
 
 ## Run Online Project
 
-You can get the hosted project here -> https://mostafa-medht.github.io/Build-A-Responsive-Template/
+You can get the hosted project here -> https://mostafa-medht.github.io/Microsoft-Homepage-Clone/
